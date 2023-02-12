@@ -1,0 +1,10 @@
+<h2>From service connected counter: {{ countFromService$ | async }}</h2>
+<section aria-label="Counter">
+  <app-counter
+    (countChange)="handleCountChange($event)"
+    [startCount]="5"
+  ></app-counter>
+</section>
+<section aria-label="Counter">
+  <app-counter-with-service></app-counter-with-service>
+</section>

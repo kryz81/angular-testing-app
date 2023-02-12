@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: azure;
+  color: darkslateblue;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.1rem;
+}
+
+button, input {
+  margin-right: 15px;
+  border: solid 2px teal;
+  padding: 3px;
+  font-family: "JetBrains Mono", monospace;
+  color: orangered;
+}
+
+section {
+  margin: 25px 0;
+  border-top: solid 5px violet;
+}
